@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Bing Bong — a 22-year-old mountain scout from Bellrock Village. Climber, friend, bell-ringer.">
+    <meta name="author" content="Kanav Gupta (xguptak00)">
+    <title>Bing Bong</title>
+    <link rel="icon" type="image/webp" href="img/ikonka.webp">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header  -->
+    <header class="site-header">
+        <div class="header-inner">
+
+            <a class="site-title" href="https://www.stud.fit.vutbr.cz/~xguptak00/itw-projekt2/">
+                <img class="logo-icon" src="img/ikonka.webp" alt="" aria-hidden="true">
+                <span>Bing Bong</span>
+            </a>
+
+            <!-- Hamburger -->
+            <button class="hamburger" type="button" aria-label="Open menu" aria-expanded="false"
+                aria-controls="main-nav">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Main navigation -->
+            <nav id="main-nav" class="main-nav" aria-label="Main">
+                <ul>
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#adventures" class="nav-link">Adventures</a></li>
+                    <li><a href="#gear" class="nav-link">Gear</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Theme toggle (top right) -->
+            <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode">
+                <span class="icon-sun">☀</span>
+                <span class="icon-moon">☾</span>
+            </button>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- section Home -->
+        <section id="home" class="hero">
+            <div class="hero-bg" aria-hidden="true"></div>
+            <div class="hero-content">
+                <div class="hero-portrait">
+                    <img src="img/Bing_Bong.webp" alt="Portrait of Bing Bong" onerror="this.style.display='none'">
+                </div>
+                <p class="hero-eyebrow">Trail scout · Peak Scouts Guild</p>
+                <h1 class="hero-title">Hi, I'm <span class="accent-text">Bing Bong</span>.</h1>
+                <p class="hero-tagline">The cheerful climber. 22 years old. Friend to every peak.</p>
+                <p class="hero-text">
+                    I grew up in a tiny mountain town called Bellrock Village, learned to climb before I learned long
+                    division, and I've been ringing my grandfather's bronze bell at the foot of every summit ever since.
+                    This little site is my way of waving hello to the world. Pull up a chair, the kettle is on.
+                </p>
+                <div class="hero-buttons">
+                    <a class="btn btn-primary" href="#about">Read my story</a>
+                    <a class="btn btn-ghost" href="#adventures">See my climbs</a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- section About -->
+        <section id="about" class="section">
+            <div class="container">
+                <header class="section-header">
+                    <p class="section-eyebrow">02 — About</p>
+                    <h2>A little about me</h2>
+                    <p class="section-lead">
+                        Three short answers to the questions people usually ask me when I sit down by their campfire.
+                    </p>
+                </header>
+
+                <div class="about-grid">
+
+                    <!-- subsection 2.1 -->
+                    <article class="subsection card">
+                        <h3><span class="num">2.1</span> Background</h3>
+                        <p>
+                            I was born in Bellrock Village, a one-road climbing town tucked into the Cascadia Highlands.
+                            My grandfather, Old Man Borrow, ran the only gear shop in the valley and put me on a rope
+                            when I was eight. He said a child who can climb a tree can climb a mountain — he was mostly
+                            right, give or take a few scraped knees.
+                        </p>
+                        <p>
+                            At fifteen I got lost in a snowstorm on Mt. Whisperpine. The local search team found me
+                            eight hours later, mostly cold and entirely embarrassed. The leader of that team handed
+                            me a thermos and told me, "Next time, you're carrying it." I joined the Peak Scouts Guild
+                            three years later and now I lead expeditions for first-time climbers — usually the nervous
+                            ones.
+                        </p>
+                    </article>
+
+                    <!-- subsection 2.2 -->
+                    <article class="subsection card">
+                        <h3><span class="num">2.2</span> Personality</h3>
+                        <p>
+                            If you've met me, you probably heard me before you saw me. I ring a small bronze bell at
+                            the start of every climb — a habit grandfather taught me when I was small. He said the
+                            mountain should know you're coming, and that it's only polite. I have never argued with
+                            him about it.
+                        </p>
+                        <ul class="trait-list">
+                            <li><strong>Cheerful</strong> — even when the weather is not.</li>
+                            <li><strong>Friendly</strong> — I will introduce myself to anyone within ten metres.</li>
+                            <li><strong>A little clumsy</strong> — but I always land on my feet, eventually.</li>
+                            <li><strong>Patient</strong> — mountains take their time, and so do I.</li>
+                        </ul>
+                    </article>
+
+                    <!-- subsection 2.3 -->
+                    <article class="subsection card">
+                        <h3><span class="num">2.3</span> Skills</h3>
+                        <p>Things I can do, more or less reliably:</p>
+                        <ul class="skill-list">
+                            <li>Alpine climbing</li>
+                            <li>Cold-weather survival</li>
+                            <li>Map &amp; star navigation</li>
+                            <li>Campfire cooking</li>
+                            <li>Languages (EN, CZ, FR, a little DE)</li>
+                        </ul>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- section Adventures -->
+        <section id="adventures" class="section section-alt">
+            <div class="container">
+                <header class="section-header">
+                    <p class="section-eyebrow">03 — Adventures</p>
+                    <h2>Climbs I'm proud of</h2>
+                    <p class="section-lead">
+                        A small handful of expeditions that taught me something. There are a lot more that mostly
+                        taught me to bring an extra pair of socks.
+                    </p>
+                </header>
+
+                <ol class="timeline">
+
+                    <li class="timeline-item">
+                        <span class="timeline-year">2018</span>
+                        <div class="timeline-card card">
+                            <h3>Mt. Whisperpine — first solo summit</h3>
+                            <p>
+                                My first real climb without grandfather on the other end of the rope. Three days,
+                                two snowstorms, one cracked thermos. I rang the bell at the top and shouted his name.
+                                I'd like to think he heard.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="timeline-item">
+                        <span class="timeline-year">2021</span>
+                        <div class="timeline-card card">
+                            <h3>The Razor Ridge expedition</h3>
+                            <p>
+                                Ten days, four climbers, one impossible-looking ridgeline. We had to wait out a
+                                blizzard for thirty hours in a tent meant for twenty. We came back friends, which
+                                is the best thing a mountain can do.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="timeline-item">
+                        <span class="timeline-year">2022</span>
+                        <div class="timeline-card card">
+                            <h3>Glacier Crown traverse — winter</h3>
+                            <p>
+                                A four-peak winter traverse with the Guild. I broke a crampon on day two and finished
+                                the last summit with a borrowed pair two sizes too big. It still counts.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="timeline-item">
+                        <span class="timeline-year">2024</span>
+                        <div class="timeline-card card">
+                            <h3>Twin Spires — winter ascent</h3>
+                            <p>
+                                Both peaks in a single push, in February. Cold enough that my bell froze to my glove.
+                                I rang it twice on the way down anyway. The mountain didn't seem to mind.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="timeline-item">
+                        <span class="timeline-year">2026</span>
+                        <div class="timeline-card card">
+                            <h3>The Forbidden Peak — coming soon</h3>
+                            <p>
+                                Currently planning. It has been climbed once, by a team of seven, in 1979. Grandfather
+                                was on that team. I'd like to go and say hello for him.
+                            </p>
+                        </div>
+                    </li>
+
+                </ol>
+            </div>
+        </section>
+
+
+        <!-- section Gear -->
+        <section id="gear" class="section">
+            <div class="container">
+                <header class="section-header">
+                    <p class="section-eyebrow">04 — Gear</p>
+                    <h2>What I carry up the mountain</h2>
+                    <p class="section-lead">
+                        Five things I never leave the valley without. Half are practical, half are just sentimental,
+                        and to be honest I cannot always tell which is which.
+                    </p>
+                </header>
+
+                <div class="gear-grid">
+
+                    <article class="gear-card card">
+                        <div class="gear-image" data-emoji="🔔" aria-hidden="true"></div>
+                        <h3>Bronze bell</h3>
+                        <p>
+                            Heirloom from grandfather. Rung at the start of every climb. Slightly dented from the
+                            Razor Ridge expedition. Still works perfectly.
+                        </p>
+                    </article>
+
+                    <article class="gear-card card">
+                        <div class="gear-image" data-emoji="🪓" aria-hidden="true"></div>
+                        <h3>Heirloom ice axe</h3>
+                        <p>
+                            Wooden shaft, hand-forged head. Older than I am. Has a name carved into the side that
+                            I will not share, because grandfather wouldn't like it if I did.
+                        </p>
+                    </article>
+
+                    <article class="gear-card card">
+                        <div class="gear-image" data-emoji="🥾" aria-hidden="true"></div>
+                        <h3>Broken-in boots</h3>
+                        <p>
+                            Three winters old, properly waterproof, and they finally stopped giving me blisters
+                            last spring. I will wear these until the soles fall off and probably one climb past that.
+                        </p>
+                    </article>
+
+                    <article class="gear-card card">
+                        <div class="gear-image" data-emoji="⛺" aria-hidden="true"></div>
+                        <h3>Four-season tent</h3>
+                        <p>
+                            Light enough to carry, sturdy enough to sleep in during a blizzard. Comes with a small
+                            patch on the rain-fly, which is a story for around the campfire.
+                        </p>
+                    </article>
+
+                    <article class="gear-card card">
+                        <div class="gear-image" data-emoji="📓" aria-hidden="true"></div>
+                        <h3>Field journal</h3>
+                        <p>
+                            Notes, weather sketches, and unflattering doodles of my climbing partners. I have filled
+                            seven of these so far. The eighth is currently on chapter three.
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- section Gallery -->
+        <section id="gallery" class="section section-alt">
+            <div class="container">
+                <header class="section-header">
+                    <p class="section-eyebrow">05 — Gallery</p>
+                    <h2>Photos from the trail</h2>
+                    <p class="section-lead">
+                        A handful of pictures. Most were taken by climbing partners, some by me with the camera
+                        propped on a rock and a ten-second timer.
+                    </p>
+                </header>
+
+                <div class="gallery-grid">
+                    <figure class="gallery-item card">
+                        <img src="img/trail/prvni.png" alt="Bing Bong standing on a snowy ridge at sunrise">
+                        <figcaption>Sunrise on Whisperpine — first solo summit, 2018.</figcaption>
+                    </figure>
+                    <figure class="gallery-item card">
+                        <img src="img/trail/druha.png" alt="A bronze bell hanging from a backpack strap">
+                        <figcaption>The bell, somewhere above the treeline.</figcaption>
+                    </figure>
+                    <figure class="gallery-item card">
+                        <img src="img/trail/treti.png"
+                            alt="Tent pitched on a snowfield with mountains in the background">
+                        <figcaption>Camp on Razor Ridge — night three of ten.</figcaption>
+                    </figure>
+                    <figure class="gallery-item card">
+                        <img src="img/trail/ctvrta.png" alt="Climbing rope coiled on a rock">
+                        <figcaption>The rope I learned to coil on, age 11.</figcaption>
+                    </figure>
+                    <figure class="gallery-item card">
+                        <img src="img/trail/pata.png" alt="A campfire with a kettle hanging over it at dusk">
+                        <figcaption>Kettle's on. Glacier Crown base camp.</figcaption>
+                    </figure>
+                    <figure class="gallery-item card">
+                        <img src="img/trail/sesta.png" alt="Sun setting behind a row of mountain peaks">
+                        <figcaption>The Twin Spires from the south col.</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- section Contact -->
+        <section id="contact" class="section">
+            <div class="container">
+                <header class="section-header">
+                    <p class="section-eyebrow">06 — Contact</p>
+                    <h2>Say hello</h2>
+                    <p class="section-lead">
+                        The best way to reach me is by email, but if you're ever in Bellrock, just ask in the gear
+                        shop and somebody will know where I am.
+                    </p>
+                </header>
+
+                <div class="contact-grid">
+
+                    <div class="contact-card card">
+                        <h3>By email</h3>
+                        <p>For anything that needs words and patience.</p>
+                        <a class="contact-link" href="mailto:bingbong@bellrockmail.com">bingbong@bellrockmail.com</a>
+                    </div>
+
+                    <div class="contact-card card">
+                        <h3>On the internet</h3>
+                        <p>I post photos when there's reception, which is rarely.</p>
+                        <ul class="contact-socials">
+                            <li><a href="#">Instagram — @bingbong.climbs</a></li>
+                            <li><a href="#">Discord — BingBong#0867</a></li>
+                            <li><a href="#">Facebook — Bing Bong Climbs</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="contact-card card">
+                        <h3>By post</h3>
+                        <p>
+                            Bing Bong<br>
+                            General Delivery<br>
+                            Bellrock Village<br>
+                            Cascadia Highlands
+                        </p>
+                    </div>
+
+                    <div class="contact-card card">
+                        <h3>By bell</h3>
+                        <p>
+                            If none of the above works, find a tall mountain and listen carefully. I'm probably
+                            somewhere nearby.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; 2026 Bing Bong</p>
+            <p class="footer-note">A school project for the ITW course at FIT VUT.</p>
+            <p class="footer-note">Bing Bong is a character from the game <em>Peak</em> &middot; Fan-made project
+                &middot; Not affiliated with or endorsed by the developers.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
